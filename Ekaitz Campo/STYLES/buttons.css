@@ -1,0 +1,53 @@
+/* Common button class */
+
+.btn {
+    background-color: #36383f;
+    font-size: 1.3em;
+    padding: 14px 20px;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.2s;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 600;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn:active {
+    box-shadow: 5px 5px 20px rgba(226, 226, 226, 0.226);
+}
+
+/* Green button */
+
+.green-btn > .btn {
+    background-color: #4bce79;
+    border: none;
+    width: 280px;
+    margin-right: 8px;
+    border-radius: 3px;
+}
+
+.green-btn > .btn a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.6em;
+}
+
+/* Black button */
+
+.black-btn > .btn {
+    background-color: #111111;
+    border: none;
+    width: 200px;
+    margin-left: 8px;
+    border-radius: 3px;
+}
+
+.black-btn > .btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.6em;
+}

@@ -1,0 +1,23 @@
+/* Footer */
+
+.footer-wrapper {
+    display: flex;
+    font-weight: 600;
+}
+
+.footer-wrapper > .footer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    width: 25%;
+    color: white;
+    background-color: #36383f;
+    border: solid #676767 1px;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.footer-wrapper > .footer:hover {
+    letter-spacing: 1px;
+}
